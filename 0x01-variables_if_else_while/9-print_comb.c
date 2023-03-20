@@ -25,5 +25,6 @@ continue;
 putchar(virgule);
 putchar(space);
 }
+putchar('\n');
 return (0);
 }
