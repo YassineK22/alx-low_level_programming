@@ -17,7 +17,7 @@ vir = ',';
 space = ' ';
 for (x = '0'; x < '9'; x++)
 {
-for (h = x+1; h <= '9'; h++)
+for (h = x + 1; h <= '9'; h++)
 {
 putchar(x);
 putchar(h);
