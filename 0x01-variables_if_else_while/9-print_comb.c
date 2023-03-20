@@ -11,7 +11,7 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
-int x,space,virgule;
+int x, space, virgule;
 
 space = ' ';
 virgule = ',';
