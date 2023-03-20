@@ -15,13 +15,13 @@ int x, h, vir, space;
 
 vir = ',';
 space = ' ';
-for (x = '0'; x <= '9'; x++)
+for (x = '0'; x < '9'; x++)
 {
-for (h = '0' + 1; h <= '9'; h++)
+for (h = x+1; h <= '9'; h++)
 {
 putchar(x);
 putchar(h);
-if (x == '8' && h =='9')
+if (x == '8' && h == '9')
 {
 continue;
 }
