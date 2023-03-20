@@ -32,7 +32,6 @@ putchar(vir);
 putchar(space);
 }
 }
-}
 putchar('\n');
 return (0);
 }
