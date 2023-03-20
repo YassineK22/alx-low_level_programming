@@ -11,12 +11,15 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
-int x;
+int x,space,virgule;
 
+space = ' ';
+virgule = ',';
 for (x = '0'; x <= '9'; x++)
 {
 putchar(x);
-putchar(', ');
+putchar(virgule);
+putchar(space);
 }
 return (0);
 }
