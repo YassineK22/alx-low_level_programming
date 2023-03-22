@@ -1,15 +1,17 @@
 #include "main.h"
+
 /**
  * print_alphabet - print all alphaptif
+ * 
+ * Return - void
  */
 
 void print_alphabet(void)
 {
-char n;
+char ch;
 
-for (n = 'a';n <= 'z';n++)
+for (ch = 'a';ch <='z';ch++)
 {
-_putchar(n);
+_putchar(ch);
 }
-return (0);
 }
