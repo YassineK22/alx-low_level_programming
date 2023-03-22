@@ -1,13 +1,11 @@
 #include "main.h"
 /**
- * main - print _putchar
- *
- * Return: Always 0.
+ * print_alphabet - print all alphaptif
  */
 
 void print_alphabet(void)
 {
-int n;
+char n;
 
 for (n = 'a';n <=' z',n++)
 {
